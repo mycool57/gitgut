@@ -20,14 +20,14 @@ header, footer {
 
 nav {
     float: left;
-    max-width: 150px;
-    margin: 1;
-    padding: 1em;
+    max-width: 160px;
+    margin: 0;
+    padding: 0em;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: circle;
+    padding: 1;
 }
 			
 nav ul a {
@@ -35,7 +35,7 @@ nav ul a {
 }
 
 article {
-    margin-left: 120px;
+    margin-left: 150px;
     border-left: 2px solid gray ;
     padding: 1em;
     overflow: auto;

@@ -21,8 +21,8 @@ switch($_GET['page'])
  include 'hlondon.php';
  break;
 
- case "paris";
-include 'hparis.php';
+ case "radio";
+include 'hradio.php';
  break;
   case "ket";
 include 'ket.php';
