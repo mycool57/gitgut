@@ -2,9 +2,9 @@
 echo "
 <nav>
   <ul>
-    <li><a href='?page=london'>LOGIN</a></li>
-    <li><a href='?page=radio'>RADIO</a></li>
-    <li><a href='?page=ket'>Tentang Kami</a></li>
+    <li><b><a href='?page=login'>Login</a></b></li>
+    <li><b><a href='?page=radio'>Playlist</a></b></li>
+    <li><b><a href='?page=ket'>Tentang Kami</a></b></li>
   </ul>
 </nav>";
 

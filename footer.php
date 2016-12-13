@@ -1,3 +1,3 @@
 <?php
-echo "<footer>thanks to w3school for template</footer>";
+echo "<footer><h3>Thanks to w3school for template</h3></footer>";
 ?>

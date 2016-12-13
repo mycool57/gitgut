@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>RADIO ONLINE</title>
+<title>PATRICK GOES ONLINE</title>
 <link rel="stylesheet" href="css/styles.css">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body background="images/bg.jpg">
 <div class="container">
 <div class="gallery"><?php include 'header.php';?></div>
 <?php include 'sidebar.php';?>
@@ -17,8 +17,8 @@ if (! isset($_GET['page']))
     } else {  
 switch($_GET['page'])
 {
- case "london";
- include 'hlondon.php';
+ case "login";
+ include 'hlogin.php';
  break;
 
  case "radio";
@@ -31,6 +31,7 @@ include 'ket.php';
 	}
 ?>
 <?php include 'footer.php';?>
+</div>
 </div>
 </body>
 </html>
